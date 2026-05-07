@@ -10,20 +10,6 @@ The model was trained on a quote/text dataset and deployed using Streamlit for a
 
 ---
 
-## 🚀 Project Demo
-
-Enter a sentence such as:
-
-the meaning of life is
-
-Output:
-
-the meaning of life is to live with purpose
-
-(Generated output depends on training data quality and model weights.)
-
----
-
 ## 📌 Features
 
 ✅ Next word prediction using LSTM  
@@ -48,19 +34,8 @@ the meaning of life is to live with purpose
 
 ---
 
-## 📂 Project Structure
 
-```bash
-.
-├── app.py
-├── lstm_model.h5
-├── tokenizer.pkl
-├── max_len.pkl
-├── qoute_dataset.csv
-├── notebook.ipynb
-└── README.md
----
-🧪 Model Workflow
+## 🧪 Model Workflow
 1. Data Preprocessing
 Converted text to lowercase
 Removed punctuation
@@ -110,21 +85,7 @@ Predictions may be inaccurate for unseen phrases
 
 This project is focused on learning and implementation of the complete NLP workflow.
 ---
-🔮 Future Improvements
-Larger dataset
-Better hyperparameter tuning
-Stacked LSTM / GRU
-Attention mechanism
-Transformer-based model
-Better UI/UX
-Cloud deployment
-▶️ Run Locally
-Install dependencies
-pip install -r requirements.txt
-Start Streamlit app
-python -m streamlit run app.py
---- 
-📸 Screenshots
+## 📸 Screenshots
 
 <img width="1446" height="687" alt="Screenshot 2026-04-29 024708" src="https://github.com/user-attachments/assets/b2f273b8-048e-42e2-b642-5fd25d5d5ab3" />
 
